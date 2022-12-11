@@ -24,14 +24,18 @@
             .append("g")
             .attr("transform", `translate(${margin.left}, ${margin.top})`);
 
-        function add_hots(ele,data,wday,comp){
-            ele.innerHTML="";
+        function add_hots(ele,data,comp,wday){
+            let cnt = 1;
+            ele.innerHTML="Hot Tweets:<br>";
+            console.log("now is"+comp+" "+wday);
             for(var i=0;i<data.length;i++){
-                if(comp == data[i].company && wday == data[i].wday){
+                if(company[comp] == data[i].company && week[wday] == data[i].wday){
                     let a = document.createElement("a");
-                    a.innerHTML=event;
-                    a.href=link;
+                    a.innerHTML=cnt.toString()+":"+data[i].content+"<br>";
+                    a.href=data[i].link;
                     ele.append(a);
+                    cnt++;
+                    console.log("add a node");
                 }
             }
         }
@@ -39,7 +43,7 @@
         //Read the data
         Promise.all([
             d3.csv("https://raw.githubusercontent.com/BlocksecPHD/file/main/data.csv"),
-            d3.csv("https://raw.githubusercontent.com/BlocksecPHD/file/main/data.csv"),
+            d3.csv("https://raw.githubusercontent.com/BlocksecPHD/file/main/hot_tweet.csv"),
         ]).then(function(files){
             const myGroups = Array.from(new Set(files[0].map(d => d.group)))
             const myVars = Array.from(new Set(files[0].map(d => d.variable)))
@@ -79,7 +83,7 @@
             //   const myColor = d3.scaleSequentialQuantile(d3.interpolateRdYlBu)
             //     .domain(Float32Array.from({ length: 100 }, d3.randomNormal(0.5, 0.15)))
             // create a tooltip
-            const tooltip = d3.select("#my_files[0]viz")
+            const tooltip = d3.select("#my_dataviz")
                 .append("div")
                 .style("opacity", 0)
                 .attr("class", "tooltip")
@@ -98,27 +102,20 @@
                     .style("opacity", 1)
             }
 
-            const onclick = function (event, d) {
-                // let a = document.createElement("a");
-                // a.innerHTML = "LYM";
-                // a.href = "https://twitter.com/PeckShieldAlert/status/1599661576046673920";
-                // hot_tweets.append(a);
-                let a = document.getElementById("board");
-                add_hots(a,files[1],d.y/50,d.x/50);
-                // a.innerHTML = "LYM";
-                // a.href = "https://twitter.com/PeckShieldAlert/status/1599661576046673920";
-                // tooltip
-                //     .style("opacity", 1)
-                // d3.select(this)
-                //     .style("stroke", "black")
-                //     .style("opacity", 1)
-            }
+            // const onclick = function (event, d) {
+            //         let a = document.getElementById("board");
+            //         console.log(event.x);
+            //         add_hots(a,files[1],Math.floor((800-event.y)/54).toString(),Math.floor((event.x-216)/100).toString());
+            // }
 
             const mousemove = function (event, d) {
                 tooltip
                     .html("follower changes: " + d.value + "<br>")
                     .style("left", (event.x) / 2 + "px")
                     .style("top", (event.y) / 2 + "px")
+                let a = document.getElementById("hot_tweets");
+                console.log(event.x);
+                add_hots(a,files[1],Math.floor((791-event.y)/54).toString(),Math.floor((event.x-213)/110).toString());
             }
 
             const mouseleave = function (event, d) {
@@ -216,14 +213,7 @@
         //         // hot_tweets.append(a);
  
         //         let a = document.getElementById("board");
-        //         add_hots(a,d.y/50,d.x/50);
-        //         // a.innerHTML = "LYM";
-        //         // a.href = "https://twitter.com/PeckShieldAlert/status/1599661576046673920";
-        //         // tooltip
-        //         //     .style("opacity", 1)
-        //         // d3.select(this)
-        //         //     .style("stroke", "black")
-        //         //     .style("opacity", 1)
+        //         add_hots(a,parseInt((646-d.y/50)/54),parseInt(d.x/111));
         //     }
 
         //     const mousemove = function (event, d) {
@@ -281,8 +271,6 @@
 
 
     </script>
-    <a id="hot_tweets">
-        <a id="board">
-        </a>
-    </a>
+</div>
+<div id="hot_tweets" style="position: absolute; left: 1000px;top:200px">
 </div>
