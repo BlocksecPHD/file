@@ -1,92 +1,92 @@
-group, variable, value
-Sun, BlockSec, 22
-Mon, BlockSec, -2
-Tue, BlockSec, 44
-Wed, BlockSec, 16
-Thu, BlockSec, 7
-Fri, BlockSec, 23
-Sat, BlockSec, 19
-Sun, PeckShield, -144
-Mon, PeckShield, 53
-Tue, PeckShield, 93
-Wed, PeckShield, 75
-Thu, PeckShield, 59
-Fri, PeckShield, 21
-Sat, PeckShield, 9
-Sun, PeckShieldAlert, 74
-Mon, PeckShieldAlert, 72
-Tue, PeckShieldAlert, 178
-Wed, PeckShieldAlert, 438
-Thu, PeckShieldAlert, 156
-Fri, PeckShieldAlert, 100
-Sat, PeckShieldAlert, 50
-Sun, CertiK, -353
-Mon, CertiK, -6
-Tue, CertiK, 61
-Wed, CertiK, 80
-Thu, CertiK, -45
-Fri, CertiK, 145
-Sat, CertiK, 4
-Sun, CertiKSecurityLeaderBoard, -261
-Mon, CertiKSecurityLeaderBoard, 25
-Tue, CertiKSecurityLeaderBoard, 5
-Wed, CertiKSecurityLeaderBoard, 40
-Thu, CertiKSecurityLeaderBoard, -143
-Fri, CertiKSecurityLeaderBoard, 99
-Sat, CertiKSecurityLeaderBoard, -16
-Sun, CertiKAlert, -13
-Mon, CertiKAlert, 20
-Tue, CertiKAlert, 86
-Wed, CertiKAlert, 32
-Thu, CertiKAlert, 10
-Fri, CertiKAlert, 16
-Sat, CertiKAlert, 7
-Sun, TrailOfBits, -105
-Mon, TrailOfBits, 43
-Tue, TrailOfBits, 20
-Wed, TrailOfBits, 15
-Thu, TrailOfBits, 19
-Fri, TrailOfBits, 9
-Sat, TrailOfBits, 19
-Sun, OpenZeppelin, -31
-Mon, OpenZeppelin, 127
-Tue, OpenZeppelin, 138
-Wed, OpenZeppelin, 104
-Thu, OpenZeppelin, 478
-Fri, OpenZeppelin, 317
-Sat, OpenZeppelin, 240
-Sun, SlowMist, 162
-Mon, SlowMist, 35
-Tue, SlowMist, 32
-Wed, SlowMist, 29
-Thu, SlowMist, 136
-Fri, SlowMist, 17
-Sat, SlowMist, 23
-Sun, MistTrack, -120
-Mon, MistTrack, -75
-Tue, MistTrack, -43
-Wed, MistTrack, 311
-Thu, MistTrack, -3
-Fri, MistTrack, 4
-Sat, MistTrack, 5
-Sun, ChainAnalysis, -278
-Mon, ChainAnalysis, 48
-Tue, ChainAnalysis, 50
-Wed, ChainAnalysis, 36
-Thu, ChainAnalysis, 18
-Fri, ChainAnalysis, 32
-Sat, ChainAnalysis, 20
-Sun, TRMLabs, -36
- Mon, TRMLabs,0
-Tue, TRMLabs, 19
-Wed, TRMLabs, 28
-Thu, TRMLabs, 16
-Fri, TRMLabs, 17
-Sat, TRMLabs, 40
-Sun, Elliptic, 133
-Mon, Elliptic, 11
-Tue, Elliptic, 16
-Wed, Elliptic, 11
-Thu, Elliptic, 3
-Fri, Elliptic, 11
-Sat, Elliptic, 2
+group,variable,value
+Sun,BlockSec,22
+Mon,BlockSec,-2
+Tue,BlockSec,44
+Wed,BlockSec,16
+Thu,BlockSec,7
+Fri,BlockSec,23
+Sat,BlockSec,19
+Sun,PeckShield,-144
+Mon,PeckShield,53
+Tue,PeckShield,93
+Wed,PeckShield,75
+Thu,PeckShield,59
+Fri,PeckShield,21
+Sat,PeckShield,9
+Sun,PeckShieldAlert,74
+Mon,PeckShieldAlert,72
+Tue,PeckShieldAlert,178
+Wed,PeckShieldAlert,438
+Thu,PeckShieldAlert,156
+Fri,PeckShieldAlert,100
+Sat,PeckShieldAlert,50
+Sun,CertiK,-353
+Mon,CertiK,-6
+Tue,CertiK,61
+Wed,CertiK,80
+Thu,CertiK,-45
+Fri,CertiK,145
+Sat,CertiK,4
+Sun,CertiKSecurityLeaderBoard,-261
+Mon,CertiKSecurityLeaderBoard,25
+Tue,CertiKSecurityLeaderBoard,5
+Wed,CertiKSecurityLeaderBoard,40
+Thu,CertiKSecurityLeaderBoard,-143
+Fri,CertiKSecurityLeaderBoard,99
+Sat,CertiKSecurityLeaderBoard,-16
+Sun,CertiKAlert,-13
+Mon,CertiKAlert,20
+Tue,CertiKAlert,86
+Wed,CertiKAlert,32
+Thu,CertiKAlert,10
+Fri,CertiKAlert,16
+Sat,CertiKAlert,7
+Sun,TrailOfBits,-105
+Mon,TrailOfBits,43
+Tue,TrailOfBits,20
+Wed,TrailOfBits,15
+Thu,TrailOfBits,19
+Fri,TrailOfBits,9
+Sat,TrailOfBits,19
+Sun,OpenZeppelin,-31
+Mon,OpenZeppelin,127
+Tue,OpenZeppelin,138
+Wed,OpenZeppelin,104
+Thu,OpenZeppelin,478
+Fri,OpenZeppelin,317
+Sat,OpenZeppelin,240
+Sun,SlowMist,162
+Mon,SlowMist,35
+Tue,SlowMist,32
+Wed,SlowMist,29
+Thu,SlowMist,136
+Fri,SlowMist,17
+Sat,SlowMist,23
+Sun,MistTrack,-120
+Mon,MistTrack,-75
+Tue,MistTrack,-43
+Wed,MistTrack,311
+Thu,MistTrack,-3
+Fri,MistTrack,4
+Sat,MistTrack,5
+Sun,ChainAnalysis,-278
+Mon,ChainAnalysis,48
+Tue,ChainAnalysis,50
+Wed,ChainAnalysis,36
+Thu,ChainAnalysis,18
+Fri,ChainAnalysis,32
+Sat,ChainAnalysis,20
+Sun,TRMLabs,-36
+Mon,TRMLabs,0
+Tue,TRMLabs,19
+Wed,TRMLabs,28
+Thu,TRMLabs,16
+Fri,TRMLabs,17
+Sat,TRMLabs,40
+Sun,Elliptic,133
+Mon,Elliptic,11
+Tue,Elliptic,16
+Wed,Elliptic,11
+Thu,Elliptic,3
+Fri,Elliptic,11
+Sat,Elliptic,2
