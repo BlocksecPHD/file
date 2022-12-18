@@ -1,92 +1,92 @@
 group,variable,value
-BlockSec, Sun, 7
-BlockSec, Mon, 1
-BlockSec, Tue, 21
-BlockSec, Wed, 27
-BlockSec, Thu, 7
-BlockSec, Fri, 5
-BlockSec, Sat, 16
-PeckShield, Sun, 20
-PeckShield, Mon, 64
-PeckShield, Tue, 69
-PeckShield, Wed, 18
-PeckShield, Thu, 20
-PeckShield, Fri, 16
-PeckShield, Sat, 6
-PeckShieldAlert, Sun, 1
-PeckShieldAlert, Mon, 22
-PeckShieldAlert, Tue, 128
-PeckShieldAlert, Wed, 48
-PeckShieldAlert, Thu, 34
-PeckShieldAlert, Fri, 83
-PeckShieldAlert, Sat, 42
-CertiK, Sun, 7
-CertiK, Mon, 110
-CertiK, Tue, 8935
-CertiK, Wed, 1374
-CertiK, Thu, 6675
-CertiK, Fri, 383
-CertiK, Sat, 779
-CertiK Security Leader Board, Sun, -17
-CertiK Security Leader Board, Mon, -26
-CertiK Security Leader Board, Tue, 2349
-CertiK Security Leader Board, Wed, 1011
-CertiK Security Leader Board, Thu, 5127
-CertiK Security Leader Board, Fri, 2058
-CertiK Security Leader Board, Sat, 762
-CertiK Alert, Sun, 60
-CertiK Alert, Mon, 40
-CertiK Alert, Tue, 2271
-CertiK Alert, Wed, 591
-CertiK Alert, Thu, 717
-CertiK Alert, Fri, 327
-CertiK Alert, Sat, 248
-TrailOfBits, Sun, 14
-TrailOfBits, Mon, -7
-TrailOfBits, Tue, 27
-TrailOfBits, Wed, -32
-TrailOfBits, Thu, 6
-TrailOfBits, Fri, 14
-TrailOfBits, Sat, 8
-OpenZeppelin, Sun, 106
-OpenZeppelin, Mon, 117
-OpenZeppelin, Tue, 89
-OpenZeppelin, Wed, 75
-OpenZeppelin, Thu, 107
-OpenZeppelin, Fri, 63
-OpenZeppelin, Sat, 50
-SlowMist, Sun, -2
-SlowMist, Mon, 18
-SlowMist, Tue, 8
-SlowMist, Wed, 29
-SlowMist, Thu, 47
-SlowMist, Fri, 16
-SlowMist, Sat, 20
-MistTrack, Sun, 2
-MistTrack, Mon, -3
-MistTrack, Tue, 1
-MistTrack, Wed, -27
-MistTrack, Thu, 9
-MistTrack, Fri, 54
-MistTrack, Sat, 20
-ChainAnalysis, Sun, 5
-ChainAnalysis, Mon, 6
-ChainAnalysis, Tue, 6
-ChainAnalysis, Wed, 29
-ChainAnalysis, Thu, 46
-ChainAnalysis, Fri, 3
-ChainAnalysis, Sat, 3
-TRM Labs, Sun, 4
-TRM Labs, Mon, 0
-TRM Labs, Tue, 17
-TRM Labs, Wed, 0
-TRM Labs, Thu, 0
-TRM Labs, Fri, 17
-TRM Labs, Sat, 3
-Elliptic, Sun, -5
-Elliptic, Mon, 5
-Elliptic, Tue, 8
-Elliptic, Wed, -2
-Elliptic, Thu, 2
-Elliptic, Fri, -1
-Elliptic, Sat, -3
+Sun, BlockSec, 7
+Mon, BlockSec, 1
+Tue, BlockSec, 21
+Wed, BlockSec, 27
+Thu, BlockSec, 7
+Fri, BlockSec, 5
+Sat, BlockSec, 16
+Sun, PeckShield, 20
+Mon, PeckShield, 64
+Tue, PeckShield, 69
+Wed, PeckShield, 18
+Thu, PeckShield, 20
+Fri, PeckShield, 16
+Sat, PeckShield, 6
+Sun, PeckShieldAlert, 1
+Mon, PeckShieldAlert, 22
+Tue, PeckShieldAlert, 128
+Wed, PeckShieldAlert, 48
+Thu, PeckShieldAlert, 34
+Fri, PeckShieldAlert, 83
+Sat, PeckShieldAlert, 42
+Sun, CertiK, 7
+Mon, CertiK, 110
+Tue, CertiK, 8935
+Wed, CertiK, 1374
+Thu, CertiK, 6675
+Fri, CertiK, 383
+Sat, CertiK, 779
+Sun, CertiK Security Leader Board, -17
+Mon, CertiK Security Leader Board, -26
+Tue, CertiK Security Leader Board, 2349
+Wed, CertiK Security Leader Board, 1011
+Thu, CertiK Security Leader Board, 5127
+Fri, CertiK Security Leader Board, 2058
+Sat, CertiK Security Leader Board, 762
+Sun, CertiK Alert, 60
+Mon, CertiK Alert, 40
+Tue, CertiK Alert, 2271
+Wed, CertiK Alert, 591
+Thu, CertiK Alert, 717
+Fri, CertiK Alert, 327
+Sat, CertiK Alert, 248
+Sun, TrailOfBits, 14
+Mon, TrailOfBits, -7
+Tue, TrailOfBits, 27
+Wed, TrailOfBits, -32
+Thu, TrailOfBits, 6
+Fri, TrailOfBits, 14
+Sat, TrailOfBits, 8
+Sun, OpenZeppelin, 106
+Mon, OpenZeppelin, 117
+Tue, OpenZeppelin, 89
+Wed, OpenZeppelin, 75
+Thu, OpenZeppelin, 107
+Fri, OpenZeppelin, 63
+Sat, OpenZeppelin, 50
+Sun, SlowMist, -2
+Mon, SlowMist, 18
+Tue, SlowMist, 8
+Wed, SlowMist, 29
+Thu, SlowMist, 47
+Fri, SlowMist, 16
+Sat, SlowMist, 20
+Sun, MistTrack, 2
+Mon, MistTrack, -3
+Tue, MistTrack, 1
+Wed, MistTrack, -27
+Thu, MistTrack, 9
+Fri, MistTrack, 54
+Sat, MistTrack, 20
+Sun, ChainAnalysis, 5
+Mon, ChainAnalysis, 6
+Tue, ChainAnalysis, 6
+Wed, ChainAnalysis, 29
+Thu, ChainAnalysis, 46
+Fri, ChainAnalysis, 3
+Sat, ChainAnalysis, 3
+Sun, TRM Labs, 4
+Mon, TRM Labs, 0
+Tue, TRM Labs, 17
+Wed, TRM Labs, 0
+Thu, TRM Labs, 0
+Fri, TRM Labs, 17
+Sat, TRM Labs, 3
+Sun, Elliptic, -5
+Mon, Elliptic, 5
+Tue, Elliptic, 8
+Wed, Elliptic, -2
+Thu, Elliptic, 2
+Fri, Elliptic, -1
+Sat, Elliptic, -3

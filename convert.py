@@ -40,4 +40,4 @@ week = [
 
 for i in range(0,13):
     for j in range(0,7):
-        print(twitter_handle_list[i]+",",week[j]+",",data[j][i])
+        print(week[j]+",",twitter_handle_list[i]+",",data[j][i])
