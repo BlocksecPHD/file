@@ -38,6 +38,17 @@
         'Elliptic'
       ]
 
+      function getYearWeek(endDate) {
+          var beginDate = new Date(endDate.getFullYear(), 0, 1);
+          var endWeek = endDate.getDay();
+          if (endWeek == 0) endWeek = 7;
+          var beginWeek = beginDate.getDay();
+          if (beginWeek == 0) beginWeek = 7;
+          var millisDiff = endDate.getTime() - beginDate.getTime();
+          var dayDiff = Math.floor(( millisDiff + (beginWeek - endWeek) * (24 * 60 * 60 * 1000)) / 86400000);
+          return Math.ceil(dayDiff / 7) + 1;
+      } 
+
       const margin = { top: 80, right: 20, bottom: 20, left: 200 },
         width = 1000 - margin.left - margin.right,
         height = 800 - margin.top - margin.bottom
@@ -67,13 +78,15 @@
         }
       }
 
+      var date=new Date();
+      var week_id = getYearWeek(date);
       //Read the data
       Promise.all([
         d3.csv(
-          'https://raw.githubusercontent.com/BlocksecPHD/file/main/data.csv'
+          'https://raw.githubusercontent.com/BlocksecPHD/file/main/data_week'+ week_id +'.csv'
         ),
         d3.csv(
-          'https://raw.githubusercontent.com/BlocksecPHD/file/main/hot_tweet.csv'
+          'https://raw.githubusercontent.com/BlocksecPHD/file/main/hot_tweet'+week_id+ '.csv'
         )
       ])
         .then(function (files) {

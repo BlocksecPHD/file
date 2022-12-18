@@ -1,0 +1,92 @@
+group,variable,value
+BlockSec, Sun, 7
+BlockSec, Mon, 1
+BlockSec, Tue, 21
+BlockSec, Wed, 27
+BlockSec, Thu, 7
+BlockSec, Fri, 5
+BlockSec, Sat, 16
+PeckShield, Sun, 20
+PeckShield, Mon, 64
+PeckShield, Tue, 69
+PeckShield, Wed, 18
+PeckShield, Thu, 20
+PeckShield, Fri, 16
+PeckShield, Sat, 6
+PeckShieldAlert, Sun, 1
+PeckShieldAlert, Mon, 22
+PeckShieldAlert, Tue, 128
+PeckShieldAlert, Wed, 48
+PeckShieldAlert, Thu, 34
+PeckShieldAlert, Fri, 83
+PeckShieldAlert, Sat, 42
+CertiK, Sun, 7
+CertiK, Mon, 110
+CertiK, Tue, 8935
+CertiK, Wed, 1374
+CertiK, Thu, 6675
+CertiK, Fri, 383
+CertiK, Sat, 779
+CertiK Security Leader Board, Sun, -17
+CertiK Security Leader Board, Mon, -26
+CertiK Security Leader Board, Tue, 2349
+CertiK Security Leader Board, Wed, 1011
+CertiK Security Leader Board, Thu, 5127
+CertiK Security Leader Board, Fri, 2058
+CertiK Security Leader Board, Sat, 762
+CertiK Alert, Sun, 60
+CertiK Alert, Mon, 40
+CertiK Alert, Tue, 2271
+CertiK Alert, Wed, 591
+CertiK Alert, Thu, 717
+CertiK Alert, Fri, 327
+CertiK Alert, Sat, 248
+TrailOfBits, Sun, 14
+TrailOfBits, Mon, -7
+TrailOfBits, Tue, 27
+TrailOfBits, Wed, -32
+TrailOfBits, Thu, 6
+TrailOfBits, Fri, 14
+TrailOfBits, Sat, 8
+OpenZeppelin, Sun, 106
+OpenZeppelin, Mon, 117
+OpenZeppelin, Tue, 89
+OpenZeppelin, Wed, 75
+OpenZeppelin, Thu, 107
+OpenZeppelin, Fri, 63
+OpenZeppelin, Sat, 50
+SlowMist, Sun, -2
+SlowMist, Mon, 18
+SlowMist, Tue, 8
+SlowMist, Wed, 29
+SlowMist, Thu, 47
+SlowMist, Fri, 16
+SlowMist, Sat, 20
+MistTrack, Sun, 2
+MistTrack, Mon, -3
+MistTrack, Tue, 1
+MistTrack, Wed, -27
+MistTrack, Thu, 9
+MistTrack, Fri, 54
+MistTrack, Sat, 20
+ChainAnalysis, Sun, 5
+ChainAnalysis, Mon, 6
+ChainAnalysis, Tue, 6
+ChainAnalysis, Wed, 29
+ChainAnalysis, Thu, 46
+ChainAnalysis, Fri, 3
+ChainAnalysis, Sat, 3
+TRM Labs, Sun, 4
+TRM Labs, Mon, 0
+TRM Labs, Tue, 17
+TRM Labs, Wed, 0
+TRM Labs, Thu, 0
+TRM Labs, Fri, 17
+TRM Labs, Sat, 3
+Elliptic, Sun, -5
+Elliptic, Mon, 5
+Elliptic, Tue, 8
+Elliptic, Wed, -2
+Elliptic, Thu, 2
+Elliptic, Fri, -1
+Elliptic, Sat, -3
