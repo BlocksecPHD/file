@@ -1,39 +1,79 @@
 wday,company,content,link
-Wed,BlockSec,AES,https://twitter.com/BlockSecTeam/status/1600442137811689473
-Sun,PeckShield,Lodestar Finance,https://twitter.com/peckshield/status/1601700494749335552
-Sat,PeckShield,TiFiToken,https://twitter.com/peckshield/status/1601492605535399936
-Wed,PeckShield,AES,https://twitter.com/peckshield/status/1600418002163625984
-Fri,CertiK,CertiK coat,https://twitter.com/CertiK/status/1601194078095298560
-Fri,CertiK,Audited MapProtocol,https://twitter.com/CertiK/status/1600916707262214146
-Thu,CertiK,XWallet,https://twitter.com/CertiK/status/1600569566379261964
-Wed,CertiK,AptinLabs,https://twitter.com/CertiK/status/1600223637830742017
-Tue,CertiK,ChatGPT,https://twitter.com/CertiK/status/1599885392911605760
-Tue,CertiK,ZK roll-up,https://twitter.com/CertiK/status/1599877139675111425
-Tue,CertiK,dypfinance,https://twitter.com/CertiK/status/1599804123779862531
-Tue,CertiKSecurityLeaderBoard,talk,https://twitter.com/CertiKCommunity/status/1601351875139629057
-Tue,CertiKSecurityLeaderBoard,talk,https://twitter.com/CertiKCommunity/status/1601064591618080768
-Thu,CertiKSecurityLeaderBoard,KYC actor,https://twitter.com/CertiKCommunity/status/1600827517140549632
-Wed,CertiKSecurityLeaderBoard,Showcase AMA with Aperion,https://twitter.com/CertiKCommunity/status/1600182924661227521
-Mon,CertiKSecurityLeaderBoard,chat,https://twitter.com/CertiKCommunity/status/1599770589459525633
-Wed,CertiKAlert,DEV-0139,https://twitter.com/CertiKAlert/status/1600328979474432002
-Mon,CertiKAlert,LymexPr,https://twitter.com/CertiKAlert/status/1599694510870626304
-Thu,TrailOfBits,Echidna,https://twitter.com/trailofbits/status/1600837806154285057
-Tue,OpenZeppelin,LimeAcademy,https://twitter.com/OpenZeppelin/status/1599810226320183296
-Fri,PeckShieldAlert,GBTC Discount or Premium to NAV,https://twitter.com/PeckShieldAlert/status/1601060052114501632
-Fri,PeckShieldAlert,Orthogonal Trading,https://twitter.com/PeckShieldAlert/status/1601030331528007681
-Thur,PeckShieldAlert,USDN,https://twitter.com/PeckShieldAlert/status/1600801290757369856
-Thu,PeckShieldAlert,LINK whale,https://twitter.com/PeckShieldAlert/status/1600684928374431745
-Thu,PeckShieldAlert,Amber,https://twitter.com/PeckShieldAlert/status/1600712491444883457
-Wed,PeckShieldAlert,Whale,https://twitter.com/PeckShieldAlert/status/1600394359949918209
-Wed,PeckShieldAlert,Nexo,https://twitter.com/PeckShieldAlert/status/1600426795039608832
-Wed,PeckShieldAlert,Yuga flashloan,https://twitter.com/PeckShieldAlert/status/1600322621689589760
-Wed,PeckShieldAlert,ApeCoin,https://twitter.com/PeckShieldAlert/status/1600320909352456195
-Tue,PeckShieldAlert,whale,https://twitter.com/PeckShieldAlert/status/1600104182765486081
-Tue,PeckShieldAlert,Nexo,https://twitter.com/PeckShieldAlert/status/1600065197812887554
-Tue,PeckShieldAlert,Yuga Flashloan,https://twitter.com/PeckShieldAlert/status/1600053481385381890
-Tue,PeckShieldAlert,ROOM,https://twitter.com/PeckShieldAlert/status/1599970363513131008
-Tue,PeckShieldAlert,whale,https://twitter.com/PeckShieldAlert/status/1599948038843551744
-Tue,PeckShieldAlert,whale,https://twitter.com/PeckShieldAlert/status/1599930638387511296
-Tue,PeckShieldAlert,Yuga Flashloan,https://twitter.com/PeckShieldAlert/status/1599961388298166272
-Mon,PeckShieldAlert,whale Paxos,https://twitter.com/PeckShieldAlert/status/1599645878838362112
-Mon,PeckShieldAlert,LYM,https://twitter.com/PeckShieldAlert/status/1599661576046673920
+Thu,BlockSec,phishing,https://twitter.com/BlockSecTeam/status/1603414327972667392
+Fri,BlockSec,SushiSwap KashiPairMediumRiskV1,https://twitter.com/BlockSecTeam/status/1603633067876155393
+Tue,BlockSec,MEV bot,https://twitter.com/BlockSecTeam/status/1602666756253925378
+Tue,BlockSec,ElasticSwap,https://twitter.com/BlockSecTeam/status/1602517243598114816
+Thu,PeckShield,FPR,https://twitter.com/peckshield/status/1603226968706936832
+Tue,PeckShield,ElasticSwap,https://twitter.com/peckshield/status/1602503213558943744
+Mon,PeckShield,Polynomial,https://twitter.com/peckshield/status/1602216000187174912
+Sat,PeckShieldAlert,EdenNetwork MEV,https://twitter.com/PeckShieldAlert/status/1603914945128980481
+Fri,PeckShieldAlert,Coinbase Whale,https://twitter.com/PeckShieldAlert/status/1603689423325237248
+Fri,PeckShieldAlert,LINK whale,https://twitter.com/PeckShieldAlert/status/1603680535976370178
+Fri,PeckShieldAlert,Amber whale,https://twitter.com/PeckShieldAlert/status/1603602453282566144
+Fri,PeckShieldAlert,cashioapp tc,https://twitter.com/PeckShieldAlert/status/1603606941775040512
+Thu,PeckShieldAlert,NEXO whale,https://twitter.com/PeckShieldAlert/status/1603334185284161537
+Wed,PeckShieldAlert,HBTC whale,https://twitter.com/PeckShieldAlert/status/1603026646767874048
+Wed,PeckShieldAlert,FalconX whale,https://twitter.com/PeckShieldAlert/status/1602974593580699652
+Wed,PeckShieldAlert,Nexo whale,https://twitter.com/PeckShieldAlert/status/1602986678955626501
+Wed,PeckShieldAlert,Alameda Research HBTC,https://twitter.com/PeckShieldAlert/status/1603013152572346369
+Wed,PeckShieldAlert,JustinSun,https://twitter.com/PeckShieldAlert/status/1602953235915948032
+Wed,PeckShieldAlert,ETH whale,https://twitter.com/PeckShieldAlert/status/1602884629903441920
+Tue,PeckShieldAlert,USDC liquidated,https://twitter.com/PeckShieldAlert/status/1602674649451532288
+Tue,PeckShieldAlert,Binance,https://twitter.com/PeckShieldAlert/status/1602582502761185283
+Tue,PeckShieldAlert,JustinSun,https://twitter.com/PeckShieldAlert/status/1602575910536097793
+Tue,PeckShieldAlert,whale czsb.eth,https://twitter.com/PeckShieldAlert/status/1602573359526838272
+Tue,PeckShieldAlert,BUSD,https://twitter.com/PeckShieldAlert/status/1602557844808962050
+Sun,PeckShieldAlert,maplefinance,https://twitter.com/PeckShieldAlert/status/1601954085565267968
+Tue,TrailOfBits,Manticore GUI,https://twitter.com/trailofbits/status/1602649632332566536
+Wed,Chainalysis,FTX,https://twitter.com/chainalysis/status/1602709286660050947
+Sat,CertiKAlert,private key attacks,https://twitter.com/CertiKAlert/status/1603887444562149381
+Fri,CertiKAlert,Parity Multisig Exploiter,https://twitter.com/CertiKAlert/status/1603702187825184770
+Thu,CertiKAlert,FPR,https://twitter.com/CertiKAlert/status/1603246310118682624
+Thu,CertiKAlert,Gemini data breach,https://twitter.com/CertiKAlert/status/1603226494251196417
+Wed,CertiKAlert,OpenSea email phishing,https://twitter.com/CertiKAlert/status/1602958389591646208
+Tue,CertiKAlert,FTX,https://twitter.com/CertiKAlert/status/1602694703748718597
+Tue,CertiKAlert,DegenBunnies discord,https://twitter.com/CertiKAlert/status/1602499719057530885
+Tue,CertiKAlert,SBF,https://twitter.com/CertiKAlert/status/1602455116472254465
+Tue,CertiKAlert,FTX,https://twitter.com/CertiKAlert/status/1602411954366255112
+Mon,CertiKAlert,Baby Apes Society,https://twitter.com/CertiKAlert/status/1602024151413301248
+Sat,CertiKAlert,ice phished,https://twitter.com/CertiKAlert/status/1604006162520850432
+Sat,CertiK,ChatGPT,https://twitter.com/CertiK/status/1603803523182989312
+Sat,CertiK,ChatGPT,https://twitter.com/CertiK/status/1603803524500185088
+Sat,CertiK,FolksFinance,https://twitter.com/CertiK/status/1604070781612609536
+Sat,CertiK,ChatGPT,https://twitter.com/CertiK/status/1603803521668616193
+Sat,CertiK,BNBCHAIN hackathon,https://twitter.com/CertiK/status/1604082819826962435
+Sat,CertiK,Coredao,https://twitter.com/CertiK/status/1604070384013279234
+Sat,CertiK,ChatGPT,https://twitter.com/CertiK/status/1603803520171491342
+Sat,CertiK,ChatGPT,https://twitter.com/CertiK/status/1603803525603115016
+Sat,CertiK,Audit Complete,https://twitter.com/CertiK/status/1603833650885570561
+Sat,CertiK,ChatGPT,https://twitter.com/CertiK/status/1603803517642326019
+Sat,CertiK,Raydium alert,https://twitter.com/CertiK/status/1603796050392875008
+Fri,CertiK,Coredao AMA,https://twitter.com/CertiK/status/1603437079077261315
+Thu,CertiK,Coredao AMA,https://twitter.com/CertiK/status/1603402719581986816
+Thu,CertiK,kucoin,https://twitter.com/CertiK/status/1603369797411930112
+Thu,CertiK,Metamask & PayPal,https://twitter.com/CertiK/status/1603111577401675777
+Thu,CertiK,Coredao,https://twitter.com/CertiK/status/1603071556128751616
+Wed,CertiK,Coredao,https://twitter.com/CertiK/status/1603052788237623296
+Wed,CertiK,Coredao,https://twitter.com/CertiK/status/1603046475679907841
+Wed,CertiK,BNBCHAIN Kickstart,https://twitter.com/CertiK/status/1602996836905598978
+Sun,CertiK,Analyse Report,https://twitter.com/CertiK/status/1600588933074718723
+Wed,CertiK,DeFiOrg,https://twitter.com/CertiK/status/1602788138765664257
+Wed,CertiK,OKX,https://twitter.com/CertiK/status/1602722549380554752
+Wed,CertiK,opulousapp,https://twitter.com/CertiK/status/1602712324359573513
+Tue,CertiK,TBW,https://twitter.com/CertiK/status/1602649046480572416
+Tue,CertiK,Taipei Blockchain Week,https://twitter.com/CertiK/status/1602649046480572416
+Tue,CertiK,CryptoWebb3,https://twitter.com/CertiK/status/1602439487610568704
+Tue,CertiK,Core DAO,https://twitter.com/CertiK/status/1602431509356503040
+Tue,CertiK,SBF,https://twitter.com/CertiK/status/1602456438374268929
+Tue,CertiK,Coredao,https://twitter.com/CertiK/status/1602423669770571778
+Tue,CertiK,Coredao,https://twitter.com/CertiK/status/1602388555325636608
+Tue,CertiK.Coredao,https://twitter.com/CertiK/status/1602434126459584512
+Tue,CertiK,Coredao,https://twitter.com/CertiK/status/1602430658370240512
+Mon,CertiK,How to stay safe,https://twitter.com/CertiK/status/1602274883425210369
+Mon,CertiK,CertiK & Avax,https://twitter.com/CertiK/status/1602271702947340289
+
+
+
+
+
+
