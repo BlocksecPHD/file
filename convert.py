@@ -38,6 +38,6 @@ week = [
 
 # print(data[1][1])
 
-for i in range(0,13):
-    for j in range(0,7):
+for i in range(0,len(twitter_handle_list)):
+    for j in range(0,len(week)):
         print(week[j]+",",twitter_handle_list[i]+",",data[j][i])
