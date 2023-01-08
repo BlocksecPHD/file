@@ -69,7 +69,3 @@ with open(output_path, 'w') as f:
             # print()
 
     # csv_write.writerows(data)
-
-
-
-

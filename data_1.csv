@@ -1,0 +1,92 @@
+group,variable,value
+Sun,BlockSec,6
+Mon,BlockSec,15
+Tue,BlockSec,122
+Wed,BlockSec,187
+Thu,BlockSec,333
+Fri,BlockSec,193
+Sat,BlockSec,219
+Sun,PeckShield,-12
+Mon,PeckShield,8
+Tue,PeckShield,40
+Wed,PeckShield,24
+Thu,PeckShield,-24
+Fri,PeckShield,10
+Sat,PeckShield,44
+Sun,PeckShieldAlert,7
+Mon,PeckShieldAlert,24
+Tue,PeckShieldAlert,26
+Wed,PeckShieldAlert,238
+Thu,PeckShieldAlert,74
+Fri,PeckShieldAlert,7
+Sat,PeckShieldAlert,28
+Sun,CertiK,748
+Mon,CertiK,701
+Tue,CertiK,809
+Wed,CertiK,667
+Thu,CertiK,821
+Fri,CertiK,600
+Sat,CertiK,808
+Sun,CertiK Security Leader Board,422
+Mon,CertiK Security Leader Board,458
+Tue,CertiK Security Leader Board,499
+Wed,CertiK Security Leader Board,428
+Thu,CertiK Security Leader Board,920
+Fri,CertiK Security Leader Board,515
+Sat,CertiK Security Leader Board,568
+Sun,CertiK Alert,121
+Mon,CertiK Alert,104
+Tue,CertiK Alert,233
+Wed,CertiK Alert,133
+Thu,CertiK Alert,135
+Fri,CertiK Alert,94
+Sat,CertiK Alert,77
+Sun,Trailofbits,5
+Mon,Trailofbits,7
+Tue,Trailofbits,4
+Wed,Trailofbits,12
+Thu,Trailofbits,3
+Fri,Trailofbits,-2
+Sat,Trailofbits,-3
+Sun,OpenZeppelin,54
+Mon,OpenZeppelin,99
+Tue,OpenZeppelin,64
+Wed,OpenZeppelin,34
+Thu,OpenZeppelin,45
+Fri,OpenZeppelin,-10
+Sat,OpenZeppelin,-17
+Sun,SlowMist,14
+Mon,SlowMist,30
+Tue,SlowMist,39
+Wed,SlowMist,41
+Thu,SlowMist,3
+Fri,SlowMist,10
+Sat,SlowMist,-3
+Sun,MistTrack,23
+Mon,MistTrack,13
+Tue,MistTrack,11
+Wed,MistTrack,-11
+Thu,MistTrack,12
+Fri,MistTrack,2
+Sat,MistTrack,1
+Sun,Chainalysis,-2
+Mon,Chainalysis,27
+Tue,Chainalysis,16
+Wed,Chainalysis,35
+Thu,Chainalysis,13
+Fri,Chainalysis,2
+Sat,Chainalysis,1
+Sun,TRM Labs,-2
+Mon,TRM Labs,3
+Tue,TRM Labs,11
+Wed,TRM Labs,8
+Thu,TRM Labs,-1
+Fri,TRM Labs,3
+Sat,TRM Labs,6
+Sun,Elliptic,4
+Mon,Elliptic,-2
+Tue,Elliptic,4
+Wed,Elliptic,-3
+Thu,Elliptic,-3
+Fri,Elliptic,3
+Sat,Elliptic,-10
