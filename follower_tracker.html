@@ -10,19 +10,19 @@
     <script>
         const week = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
         const company = [
-            'BlockSec',
-            'PeckShield',
-            'PeckShieldAlert',
-            'CertiK',
-            'CertiK Security Leader Board',
-            'CertiK Alert',
-            'TrailOfBits',
-            'OpenZeppelin',
-            'SlowMist',
-            'MistTrack',
-            'ChainAnalysis',
+            'Elliptic',
             'TRM Labs',
-            'Elliptic'
+            'ChainAnalysis',
+            'MistTrack',
+            'SlowMist',
+            'OpenZeppelin',
+            'TrailOfBits',
+            'CertiK Alert',
+            'CertiK Security Leader Board',
+            'CertiK',
+            'PeckShieldAlert',
+            'PeckShield',
+            'BlockSec'
         ]
 
         function getYearWeek(endDate) {
@@ -38,16 +38,16 @@
 
         function add_hots(ele, data, comp, wday) {
             let cnt = 1
-            ele.innerHTML = 'Hot Tweets:<br>'
-            console.log('now is' + comp + ' ' + wday)
+            ele.innerHTML = 'Hot Tweets:<br>';
+            console.log('now is' + comp + ' ' + wday);
             for (var i = 0; i < data.length; i++) {
                 if (company[comp] == data[i].company && week[wday] == data[i].wday) {
-                    let a = document.createElement('a')
-                    a.innerHTML = cnt.toString() + ':' + data[i].content + '<br>'
-                    a.href = data[i].link
-                    ele.append(a)
-                    cnt++
-                    console.log('add a node')
+                    let a = document.createElement('a');
+                    a.innerHTML = cnt.toString() + ':' + data[i].content + '<br>';
+                    a.href = data[i].link;
+                    ele.append(a);
+                    cnt++;
+                    console.log('add a node');
                 }
             }
         }
@@ -82,7 +82,7 @@
     <!-- Create a div where the graph will take place -->
     <div id="my_dataviz">
         <script>
-
+            var selected_element=null;
             // set the dimensions and margins of the graph
             const margin = { top: 80, right: 20, bottom: 20, left: 200 },
                 width = 1000 - margin.left - margin.right,
@@ -167,6 +167,7 @@
 
                     // Three function that change the tooltip when user hover / move / leave a cell
                     const mouseover = function (event, d) {
+                        console.log("mouseover");
                         tooltip.style('opacity', 1)
                         d3.select(this).style('stroke', 'black').style('opacity', 1)
                         let a = document.getElementById('hot_tweets')
@@ -174,12 +175,24 @@
                         add_hots(
                             a,
                             files[1],
-                            Math.floor((791 - event.y) / 54).toString(),
-                            Math.floor((event.x - 213) / 110).toString()
+                            Math.floor((this.y.baseVal.value-2.6) / 53.64).toString(),
+                            Math.floor((this.x.baseVal.value-5.5)  / 110.64).toString()
                         )
                     }
 
                     const onclick = function (event, d) {
+                        console.log("clicked");
+                        if(selected_element!=null){
+                            if(selected_element==this){
+                                d3.select(this).style('stroke', 'none').style('opacity', 0.8);
+                                selected_element=null;
+                            }else{
+                                d3.select(selected_element).style('stroke', 'none').style('opacity', 0.8);
+                                selected_element=this;
+                            }
+                        }else{
+                            selected_element=this;
+                        }
                         // let a = document.getElementById("board");
                         // console.log(event.x);
                         // add_hots(a,files[1],Math.floor((800-event.y)/54).toString(),Math.floor((event.x-216)/100).toString());
@@ -196,9 +209,20 @@
                     }
 
                     const mouseleave = function (event, d) {
+                        console.log("leaved");
                         tooltip
                             .style("opacity", 0)
                         d3.select(this).style('stroke', 'none').style('opacity', 0.8)
+                        let a = document.getElementById('hot_tweets')
+                        if(selected_element!=null){
+                            d3.select(selected_element).style('stroke', 'black').style('opacity', 1)
+                            add_hots(
+                                a,
+                                files[1],
+                                Math.floor((selected_element.y.baseVal.value-2.6) / 53.64).toString(),
+                                Math.floor((selected_element.x.baseVal.value-5.5)  / 110.64).toString()
+                            )
+                        }
                     }
 
                     // add the squares
