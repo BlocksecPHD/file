@@ -68,10 +68,10 @@
     <div>
         <select id="change_week" onchange="week_changed()"></select>
         <script>
-            for (var cnt = 1; cnt <= 43; cnt++) {
+            for (var cnt = 1; cnt <= 54; cnt++) {
                 change_week.options.add(new Option("Week " + cnt, cnt));
             }
-            change_week[getYearWeek(new Date())].selected=true;
+            change_week[getYearWeek(new Date())-2].selected=true;
             // document.body.appendChild(choose_week);
             function week_changed(){
                 week_id = change_week.value;
@@ -97,7 +97,8 @@
                 .attr('transform', `translate(${margin.left}, ${margin.top})`)
 
             var date = new Date();
-            var week_id = getYearWeek(date);
+            // var week_id = getYearWeek(date)-1;
+            week_changed();
             // $("option[value=week_id]").select = true;
             //Read the data
 
@@ -231,7 +232,7 @@
                     .catch(function (err) { })
             }
 
-            refresh_data();
+            // refresh_data();
 
             // Add title to graph
             svg
@@ -251,7 +252,7 @@
                 .style('font-size', '14px')
                 .style('fill', 'grey')
                 .style('max-width', 1000)
-                .text('A short description of the take-away message of this chart.')
+                .text('Color shows the change of follower among 13 blockchain security companies.')
         </script>
     </div>
 
